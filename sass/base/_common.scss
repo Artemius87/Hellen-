@@ -1,0 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+body {
+  background-color: #ffffff;
+  color: $primary-text-color;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.button {
+  padding: 17px 14px 16px 15px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.22;
+  letter-spacing: 0.08em;
+  border: none;
+  text-align: center;
+  color: $white-color;
+  background-color: $secondary-text-color;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.button-primary {
+  padding: 10px 32px;
+  min-width: 200px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  border: none;
+  text-align: center;
+  line-height: 1.87;
+  cursor: pointer;
+  color: $white-color;
+  background-color: $accent-color;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
