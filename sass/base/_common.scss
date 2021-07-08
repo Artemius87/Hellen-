@@ -48,26 +48,20 @@ body {
 }
 
 .button-primary {
-  padding: 10px 32px;
-  min-width: 200px;
-  font-weight: bold;
-  font-size: 16px;
-  letter-spacing: 0.06em;
+  padding: 17px 9px;
+  min-width: 260px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
   border: none;
   text-align: center;
-  line-height: 1.87;
+  line-height: 1.25;
   cursor: pointer;
   color: $white-color;
-  background-color: $accent-color;
-  border-radius: 4px;
+  background-color: $secondary-text-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    background-color: #188ce8;
-  }
 }
 img {
   display: block;
