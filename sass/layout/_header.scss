@@ -125,43 +125,38 @@
 //   }
 // }
 
-// .navigator-btn {
-//   display: inline-flex;
-//   margin: 0;
-//   padding: 0;
-//   border: none;
-//   background-color: transparent;
-//   cursor: pointer;
-//   width: 40px;
-//   height: 40px;
-//   justify-content: center;
-//   align-items: center;
-// }
+.navigator-btn {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
 
-// .icon-close {
-//   display: none;
-// }
+.icon-close {
+  display: none;
+}
 
-// .navigator-btn.is-open .icon-close {
-//   display: block;
-// }
+.navigator-btn.is-open .icon-close {
+  display: block;
+}
 
-// .navigator-btn.is-open .icon-menu {
-//   display: none;
-// }
+.navigator-btn.is-open .icon-menu {
+  display: none;
+}
 
-// .icon-menu,
-// .icon-close {
-//   fill: $primary-text-color;
+.icon-menu,
+.icon-close {
+  fill: $primary-text-color;
 
-//   transition-duration: 250ms;
-//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-//   .navigator-btn:hover &,
-//   .navigator-btn:focus & {
-//     fill: $accent-color;
-//   }
-// }
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 // @media screen and (min-width: 480px) {
 //   .site-nav .current::after {
